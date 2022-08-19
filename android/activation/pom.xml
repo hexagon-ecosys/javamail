@@ -48,7 +48,7 @@
     <parent>
 	<groupId>com.sun.mail</groupId>
 	<artifactId>android</artifactId>
-	<version>1.6.2</version>
+		<version>1.6.2_461-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sun.mail</groupId>
@@ -127,7 +127,7 @@
 				<arg>-Xlint:-cast</arg>
 				<arg>-Xlint:-deprecation</arg>
 				<arg>-Xlint:-dep-ann</arg>
-				<arg>-Werror</arg>
+				<!--<arg>-Werror</arg>-->
 			    </compilerArgs>
 			    <showWarnings>true</showWarnings>
 			</configuration>

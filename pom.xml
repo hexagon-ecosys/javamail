@@ -54,7 +54,7 @@
     <groupId>com.sun.mail</groupId>
     <artifactId>all</artifactId>
     <packaging>pom</packaging>
-    <version>1.6.2</version>
+	<version>1.6.2_461-SNAPSHOT</version>
     <name>JavaMail API distribution</name>
     <description>${project.name}</description>
     <url>http://javaee.github.io/javamail</url>
@@ -146,10 +146,10 @@
 
     <!-- following to enable use of "mvn site:stage" -->
     <distributionManagement>
-	<site>
-	    <id>oracle.com</id>
-	    <url>file:/tmp</url> <!-- not used -->
-	</site>
+		<repository>
+			<id>EcoSys</id>
+			<url>https://pkgs.dev.azure.com/hexagonppm/EcoSys/_packaging/EcoSys/maven/v1</url>
+		</repository>
     </distributionManagement>
 
     <modules>
@@ -264,7 +264,7 @@
 			</configuration>
 		    </plugin>
 
-		    <plugin>
+		    <!--<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-javadoc-plugin</artifactId>
 			<executions>
@@ -275,7 +275,7 @@
 				</goals>
 			    </execution>
 			</executions>
-		    </plugin>
+		    </plugin>-->
 		</plugins>
 	    </build>
 	</profile>
