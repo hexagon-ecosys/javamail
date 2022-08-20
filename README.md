@@ -45,7 +45,7 @@ The above process will generate the necessary JAR file at ./mail/target/javax.ma
 3. Build the project using the instructions listed above
 4. Upload the JAR to our internal repo using the command -
 ```
-mvn deploy:deploy-file -DgroupId=com.sun.mail -DartifactId=javax.mail -Dversion=1.6.2_461-SNAPSHOT -DpomFile=.\mail\pom.xml -Dfile=.\mail\target\javax.mail.jar -DrepositoryId=EcoSys -Durl=<repoUrl>
+mvn deploy:deploy-file -DgroupId=com.sun.mail -DartifactId=javax.mail -Dversion=1.6.2_461-SNAPSHOT -DpomFile=.\mail\publishPom.xml -Dfile=.\mail\target\javax.mail.jar -DrepositoryId=EcoSys -Durl=<repoUrl>
 ```
 
 **Change the version number to match what was selected in step #2**
