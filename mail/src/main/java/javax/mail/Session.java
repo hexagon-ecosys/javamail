@@ -266,7 +266,7 @@ public final class Session {
 	    debug = true;
 
 	initLogger();
-	logger.log(Level.CONFIG, "JavaMail version {0}", Version.version);
+	logger.log(Level.CONFIG, "Hexagon EcoSys JavaMail version {0}", Version.version);
 
 	// get the Class associated with the Authenticator
 	Class<?> cl;
@@ -436,7 +436,7 @@ public final class Session {
     public synchronized void setDebug(boolean debug) {
 	this.debug = debug;
 	initLogger();
-	logger.log(Level.CONFIG, "setDebug: JavaMail version {0}",
+	logger.log(Level.CONFIG, "setDebug: Hexagon EcoSys JavaMail version {0}",
 				    Version.version);
     }
 

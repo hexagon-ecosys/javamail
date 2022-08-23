@@ -49,7 +49,7 @@
     <groupId>com.sun.mail</groupId>
     <artifactId>javax.mail</artifactId>
     <packaging>jar</packaging>
-	<version>1.6.2_461-SNAPSHOT</version>
+	<version>1.6.2_20220819.1</version>
     <name>Hexagon EcoSys JavaMail API</name>
 
 	<dependencies>

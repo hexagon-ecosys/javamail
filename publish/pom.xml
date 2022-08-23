@@ -48,13 +48,13 @@
     <parent>
 	<groupId>com.sun.mail</groupId>
 	<artifactId>all</artifactId>
-		<version>1.6.2_461-SNAPSHOT</version>
+		<version>1.6.2_20220819.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sun.mail</groupId>
     <artifactId>publish</artifactId>
     <packaging>pom</packaging>
-	<version>1.6.2_461-SNAPSHOT</version>
+	<version>1.6.2_20220819.1</version>
     <name>JavaMail API publish project</name>
 
     <build>
@@ -89,7 +89,7 @@
         <dependency>
             <groupId>com.sun.mail</groupId>
             <artifactId>javax.mail</artifactId>
-			<version>1.6.2_461-SNAPSHOT</version>
+			<version>1.6.2_20220819.1</version>
         </dependency>
     <!--
         <dependency>
